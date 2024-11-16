@@ -11,7 +11,7 @@ const Additem = ({newitem,setnewitem,handlesubmit}) => {
         required
         ref={inputRef}
         autoFocus
-        placeholder='enter the item to add'
+        placeholder='Enter the item to add'
         value={newitem}
         onChange={(e) => setnewitem(e.target.value)}
     
